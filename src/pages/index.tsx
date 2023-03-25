@@ -30,6 +30,9 @@ const Home: NextPage = () => {
             {data?.map((project) => (<div key={project.id}>{project.title}</div>))}
             {data?.map((project) => (<div key={project.id}>{project.content}</div>))}
           </div>
+          <div>
+            <p>hello world</p>
+          </div>
         </div>
         </div>
       </main>
