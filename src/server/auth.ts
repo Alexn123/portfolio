@@ -38,8 +38,8 @@ declare module "next-auth" {
 export const authOptions: NextAuthOptions = {
   callbacks: {
     async signIn({ user, account, profile }) {
-      const isAllowed = true;
-      if(user.id == "clfpvqmpg0000uuusr21uyi2n"){
+      const isAllowed = await "clfpvqmpg0000uuusr21uyi2n";
+      if(user.id == isAllowed){
         return true
       } else {
         return false
