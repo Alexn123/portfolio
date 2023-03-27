@@ -39,7 +39,7 @@ export const authOptions: NextAuthOptions = {
   callbacks: {
   signIn({ user }) {
       const isAllowed = "clfpvqmpg0000uuusr21uyi2n";
-      if(user.id == isAllowed){
+      if(user.name == isAllowed){
         return true
       } else {
         return false

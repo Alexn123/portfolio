@@ -2,7 +2,7 @@ import { NextPage } from "next";
 
 const cv: NextPage = () => {
     return(
-        <>
+        <div className="p-56">
             <p>
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione fuga
             recusandae quidem. Quaerat molestiae blanditiis doloremque possimus labore
@@ -15,7 +15,7 @@ const cv: NextPage = () => {
             voluptatibus distinctio recusandae autem esse explicabo molestias officia
             placeat, accusamus aut saepe.
             </p>
-        </>
+        </div>
     );
 }
 

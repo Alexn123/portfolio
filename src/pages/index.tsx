@@ -21,13 +21,33 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
-        <div className="flex flex-col items-center justify-center gap-12 px-4 py-16 ">
-            {/* <AuthShowcase /> */}
+        {/* <div className="flex flex-col items-center justify-center gap-12 px-4 py-16 ">
+            <AuthShowcase />
           <div className="container flex flex-col items-center justify-center gap-2 px-4 py-16 ">
-            {/* {[...data]?.map(({project}) => (<div key={project.id}>{project.title}</div>))} */}
+            {[...data]?.map(({project}) => (<div key={project.id}>{project.title}</div>))}
           </div>
+        </div> */}
+        <div className="lg:grid lg:grid-cols-3 mt-24 mb-24 gap-8 grid grid-cols-1 justify-items-center">
+          <Card/>
+          <Card/>
+          <Card/>
+          <Card/>
+          <Card/>
+          <Card/>
+          <Card/>
+          <Card/>
+          <Card/>
+          <Card/>
+          <Card/>
+          <Card/>
+          <Card/>
+          <Card/><Card/>
+
+          <Card/>
+          <Card/>
+          <Card/>
+          <Card/>
         </div>
-        <Card/>
       </main>
     </>
   );

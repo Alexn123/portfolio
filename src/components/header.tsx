@@ -6,7 +6,7 @@ export const Header = () => {
     const { data: sessionData } = useSession();
 
     return(
-    <div className="navbar bg-base-300">
+    <div className="navbar fixed top-0 bg-base-300 z-50">
       <div className="flex-1 pl-5 text-3xl font-bold">
         <Link href="/">{sessionData?.user?.name ? ` ${sessionData.user.name} Portfolio` : ""}</Link>
       </div>
